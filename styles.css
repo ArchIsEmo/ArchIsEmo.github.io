@@ -1,0 +1,33 @@
+h1, h2, p {
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    padding-bottom: 35px;
+    color: #ff0000;
+    font-size: 50px;
+    margin-top: 0;
+    font-family: Papyrus;
+}
+
+.Picture-of-Arch {
+    display: block;
+    margin: 10px auto;
+}
+
+body {
+    background-color: #000000;
+  }
+
+body::before {
+    content: "SAF";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    pointer-events: none;
+}
