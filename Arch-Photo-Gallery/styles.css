@@ -2,19 +2,7 @@ body {
     background-color: #000000;
   }
 
-body::before {
-    content: "SAF";
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 100px;
-    color: rgba(255, 255, 255, 0.1);
-    z-index: -1;
-    pointer-events: none;
-}
-
-.Picture-of-Arch {
+  .Picture-of-Arch {
     display: block;
     margin: 10px auto;
     width: 25%
@@ -48,4 +36,16 @@ body::before {
     .Picture-of-Arch {
         width: 60%;
     }
+}
+
+body::before {
+    content: "SAF";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    pointer-events: none;
 }
