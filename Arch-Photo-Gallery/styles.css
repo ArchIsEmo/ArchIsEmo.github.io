@@ -13,3 +13,39 @@ body::before {
     z-index: -1;
     pointer-events: none;
 }
+
+.Picture-of-Arch {
+    display: block;
+    margin: 10px auto;
+    width: 25%
+}
+
+@media (max-width: 850px) {
+    .Picture-of-Arch {
+        width: 35%;
+    }
+}
+
+@media (max-width: 700px) {
+    .Picture-of-Arch {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .Picture-of-Arch {
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Picture-of-Arch {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .Picture-of-Arch {
+        width: 60%;
+    }
+}
